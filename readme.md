@@ -1,8 +1,8 @@
 ![](https://raw.githubusercontent.com/sibertime/sibertime-vulnerable-web-application/master/img/readme/logo.png)
 
-## Büsiber Kış Kampı için hazırlanan Zafiyetli Web Uygulaması Hakkında
+## Vulnerable Web Application
 
-2020 Büsiber Kış Kampı için hazırlanmış zafiyetli web uygulaması, kampa katılacak kursiyerler için özel olarak hazırlanmıştır. Uygulama php dili ile kodlanmış ve üzerinde çeşitli birçok zafiyet barındırmaktadır. Bu zafiyetler şunlardır :
+Zafiyetli web uygulaması php dili ile kodlanmış ve üzerinde çeşitli birçok zafiyet barındırmaktadır. Bu zafiyetler şunlardır :
 
   - Sql injection (Blind)
   - Cross Site Scripting (XSS) (Stored)
@@ -29,19 +29,4 @@
     $password = "";
     $database = "veritabani_adi";
 ```
-- Settings dizini içinde bulunan "siber_kamp.sql" adlı dosyayı veritabanına yüklemek yeterli olacaktır.
-
-## Uygulama içi görseller
-
-[![N|Cybrbook](https://raw.githubusercontent.com/sibertime/busiber-kis-kampi-zafiyetli-web-uygulamasi/master/uploads/idor.png)](https://github.com/sibertime/busiber-kis-kampi-zafiyetli-web-uygulamasi/)
-
-
-[![N|Cybrbook](https://raw.githubusercontent.com/sibertime/busiber-kis-kampi-zafiyetli-web-uygulamasi/master/uploads/csrf.png)](https://github.com/sibertime/busiber-kis-kampi-zafiyetli-web-uygulamasi/)
-
-
-[![N|Cybrbook](https://raw.githubusercontent.com/sibertime/busiber-kis-kampi-zafiyetli-web-uygulamasi/master/uploads/sql.png)](https://github.com/sibertime/busiber-kis-kampi-zafiyetli-web-uygulamasi/)
-
-
-[![N|Cybrbook](https://raw.githubusercontent.com/sibertime/busiber-kis-kampi-zafiyetli-web-uygulamasi/master/uploads/xss.png)](https://github.com/sibertime/busiber-kis-kampi-zafiyetli-web-uygulamasi/)
-
-[Sunum sırasında kullanılan python dosyasına ulaşmak için tıklayınız](https://raw.githubusercontent.com/sibertime/busiber-kis-kampi-zafiyetli-web-uygulamasi/master/python.py "python code") 
+- Settings dizini içinde bulunan "egitim.sql" adlı dosyayı veritabanına yüklemek yeterli olacaktır.
